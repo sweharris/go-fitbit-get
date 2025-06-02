@@ -99,7 +99,7 @@ and if you look in the config file you'll see a lot more data:
 
 And now we can do what we really wanted:
 ```
-% fitbit get https://api.fitbit.com/1/user/-/activities/heart/date/2025-06-02/2025-06-02/1sec/time/00:00/23:59.json
+% fitbit_get https://api.fitbit.com/1/user/-/activities/heart/date/2025-06-02/2025-06-02/1sec/time/00:00/23:59.json
 {
   "activities-heart": [
     {
