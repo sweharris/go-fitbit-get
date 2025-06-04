@@ -110,6 +110,6 @@ func check_refresh_token(client *http.Client) {
 		configuration.RefreshToken = nt.RefreshToken
 		configuration.Expiry = nt.Expiry
 		save_config()
-		fmt.Fprintf(os.Stderr, "Token refreshed")
+		// fmt.Fprintf(os.Stderr, "Token refreshed")
 	}
 }

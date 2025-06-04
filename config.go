@@ -70,7 +70,7 @@ func load_config() {
 
 func save_config() {
 	data := []byte(prettyPrint(configuration))
-	fmt.Fprintln(os.Stderr, "Saving new config")
+	// fmt.Fprintln(os.Stderr, "Saving new config")
 	err := os.WriteFile(config_file(), data, 0666)
 	check_or_die(err)
 }
